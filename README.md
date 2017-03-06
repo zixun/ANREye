@@ -1,5 +1,3 @@
-#ANREye
-=======
 # ANREye
 
 [![Version](https://img.shields.io/cocoapods/v/Log4G.svg?style=flat)](http://cocoapods.org/pods/ANREye)
