@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/Log4G.svg?style=flat)](http://cocoapods.org/pods/ANREye)
 [![Platform](https://img.shields.io/cocoapods/p/Log4G.svg?style=flat)](http://cocoapods.org/pods/ANREye)
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage) 
+
 Class for monitor excessive blocking on the main thread
 
 ## Family
@@ -16,12 +18,21 @@ This library is derived from the [GodEye](https://github.com/zixun/GodEye) proje
 
 ## Installation
 
+### CocoaPods
 ANREye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "ANREye"
 ```
+
+### Carthage
+Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
+
+``` 
+github "zixun/ANREye"
+```
+
 
 ## Usage
 ### open and add delegate
