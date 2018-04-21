@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ANREye'
-  s.version          = '1.1.2'
+  s.version          = '1.2.0'
 s.summary          = 'Class for monitor excessive blocking on the main thread.'
 
   s.description      = <<-DESC

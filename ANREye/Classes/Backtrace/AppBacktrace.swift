@@ -82,10 +82,6 @@ class AppBacktrace: NSObject {
             if (pt != nil) {
                 pthread_getname_np(pt!, &name, name.count)
                 
-                print(nsthread.name)
-                
-                print(String(utf8String: name))
-                
                 if String(utf8String: name) == nsthread.name {
                     nsthread.name = originName
                     return list![index]

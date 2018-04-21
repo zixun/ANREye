@@ -113,7 +113,7 @@ private class AppPingThread: Thread {
                 self.handler?()
             }
             
-            self.semaphore.wait(timeout: DispatchTime.distantFuture)
+            _ = self.semaphore.wait(timeout: DispatchTime.distantFuture)
         }
     }
     
